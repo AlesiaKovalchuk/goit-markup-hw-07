@@ -1,14 +1,14 @@
-.section team {
+.section-sectionteam {
     background-color: $add-background-color;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.container-team {
+.container {
     justify-content: space-evenly;
 }
 
-.team__list {
+.team {
     display: flex;
     gap: 30px;
     padding: 0;
@@ -19,13 +19,13 @@
     box-shadow: $box-shadow;
 }
 
-.team__text {
+.team__box {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.team__name {
+.team__title {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
@@ -35,7 +35,7 @@
     margin-bottom: 10px;
 }
 
-.team__subtext {
+.team__text {
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
@@ -43,19 +43,19 @@
     margin-bottom: 16;
 }
 
-.list {
+.socials {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-.list__item {
+.socials__item {
     display: inline-block;
     margin: 0;
 }
 
-.list__link {
+.socials__link {
     display: flex;
     align-items: center;
     justify-content: center;

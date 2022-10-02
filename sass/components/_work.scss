@@ -1,9 +1,11 @@
-.work {
+.section__works {
+    &section--no padding-top {
     padding-top: 0;
     padding-bottom: 94px;
+    }
 }
 
-.title {
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);

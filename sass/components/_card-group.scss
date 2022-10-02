@@ -1,11 +1,11 @@
-.flex-container {
+.portfolio {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     padding-left: 0;
 }
 
-.flex-element {
+.portfolio__item {
     width: 370px;
 
     &:nth-child(3n) {
@@ -18,18 +18,18 @@
 
 }
 
-.flex-link {
+.portfolio__link {
     display: block;
     text-decoration: none;
     color: $main-text-color;
 
     transition: box-shadow $box-shadow;
-
     &:hover .overlay-desc,
-    &:focus .overlay-desc {
-        transform: translateY(0);
-    }
+        &:focus .overlay-desc {
+            transform: translateY(0);
+        }
 
+   
     &:hover,
     &:focus {
         box-shadow: $box-shadow;
@@ -59,6 +59,7 @@
 
     transform: translateY(101%);
     transition: transform $animation;
+   
 }
 
 .text {

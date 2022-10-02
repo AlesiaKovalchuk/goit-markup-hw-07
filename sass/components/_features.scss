@@ -6,11 +6,11 @@
     }
 }
 
-.section__item :not(:nth-last-child) {
+.features__item :not(:nth-last-child) {
     margin-right: 30px;
 }
 
-.section__content {
+.features__content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@
 
 }
 
-.section__title {
+.features__title {
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16/14);
@@ -35,7 +35,7 @@
     padding: 0;
 }
 
-.section__text {
+.features__text {
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
